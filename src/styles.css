@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+body{margin-top:20px;}
+
+  
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+td, th {
+    border: 2px solid rgb(196, 196, 196);
+    text-align: left;
+    padding: 8px;
+    
+}
+
+.table tbody > tr > td {
+	font-size: 0.875em;
+	background: #f5f5f5;
+	border-top: 10px solid rgb(196, 196, 196);
+	vertical-align: middle;
+	padding: 12px 8px;
+    
+}
+.btn-add {
+    background-color: rgb(133, 185, 56);
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.btn-delete {
+    background-color: rgba(201, 23, 23, 0.699);
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px 50px 50px 50px;
+}
+
+
+
+
+
